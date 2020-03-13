@@ -6,11 +6,13 @@
 ; 《残りやること》
 ; 　・テトリミノ全種実装
 ; 　・操作中のテトリミノが一定時間停止したら次のテトリミノを表示
+; 　・テトリミノが重なるやつの対策
+; 　・下矢印・下ボタンではやく降りるやつ
 ; 　・テトリミノの回転
 ; 　・操作ボタン表示
-; 　・ゲームオーバー => sf.tetris.system.game_over();
+; 　・ゲームオーバー => tyrano.plugin.kag.variable.sf.tetris.system.game_over();
 ; 　・スコア機能
-; 　・ゲームクリア => sf.tetris.system.clear();
+; 　・ゲームクリア => tyrano.plugin.kag.variable.sf.tetris.system.clear();
 ; 　・次に表示されるテトリミノ（６個）
 ; 　・ホールド機能
 ; 　・列がすぐ消えるやつの対策
