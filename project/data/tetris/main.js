@@ -105,7 +105,7 @@ setInterval(function() {
     checkDelete();
     fall();
     draw();
-}, TYRANO.kag.variable.sf.frame);
+}, TYRANO.kag.stat.f.frame);
 
 
 
