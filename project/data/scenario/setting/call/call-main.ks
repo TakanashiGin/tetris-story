@@ -1,3 +1,3 @@
-@plugin name="key_event"
-@plugin name="theme_kopanda_12"
+@call storage="setting/call/plugin.ks"
+@call storage="setting/call/macro.ks"
 @return

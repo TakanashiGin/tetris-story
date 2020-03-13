@@ -1,10 +1,7 @@
-body {
-    background-color: #263238;
-}
 table {
     margin: 0 auto; /* 中央寄せ */
-    width: 640px;
-    height: 960px;
+    width: 480px;
+    height: 720px;
 }
 td {
     width: 10%; /* 横10マス */

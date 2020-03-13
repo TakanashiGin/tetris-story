@@ -62,6 +62,14 @@ console.log('↓↓↓');
 
 ; test
 ;@jump storage="test/test.ks"
+[layopt layer="message0" visible="true"]
+[layopt layer="0" visible="true"]
+[bgimg storage="room.jpg" time="1000" wait="true"]
+
+タップでスタート。[p]
+
+[layopt layer="message0" visible="false"]
+[layopt layer="0" visible="false"]
 
 
 

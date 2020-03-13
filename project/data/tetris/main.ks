@@ -4,7 +4,7 @@
 sf.frame = 100;
 [endscript]
 
-[html]
+[html top="190" left="0"]
 <link rel="stylesheet" href="data/tetris/style.css">
 <table id="game">
   <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
