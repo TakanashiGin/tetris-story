@@ -100,8 +100,12 @@ function checkDelete() {
     }
 }
 
+
+
+
+
 draw(); // 読込が完了したらまず表示
-setInterval(function() {
+var game_timer = setInterval(function() {
     checkDelete();
     fall();
     draw();
@@ -130,20 +134,26 @@ function genBlock(blockNum) {
     }
 }
 
-document.onkeydown = function(e) {
-    switch (e.code) {
-        case "Space":
-            genBlock(1);
-            break;
-        case "ArrowRight":
-            moveBlockRight();
-            break;
-        case "ArrowLeft":
-            moveBlockLeft();
-            break;
-    }
-    draw();
-}
+$(window).on("keydown",function(e){
+  switch (e.keyCode) {
+    case 32:  // space
+      genBlock(1);
+      break;
+    case 39:  // arrow right
+      moveBlockRight();
+      break;
+    case 37:  // arrow left
+      moveBlockLeft();
+      break;
+    case 38:  // arrow up
+      // ここに回転の処理
+      break;
+    case 40:  // arrow down
+      // ここに下に落とす処理
+      break;
+  }
+  draw();
+});
 
 
 
